@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todolist/translations.dart';
 import 'package:todolist/widgets/custom_button.dart';
 import '../constant.dart';
 
@@ -52,7 +53,7 @@ class _TaskPageState extends State<TaskPage> {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Text(
-                        "Confirm Task",
+                        Translations.of(context).text('Confirm Task'),
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -64,7 +65,7 @@ class _TaskPageState extends State<TaskPage> {
                       Text('time'),
                       SizedBox(height: 24),
                       CustomButton(
-                        buttonText: "Complete",
+                        buttonText: Translations.of(context).text('Complete'),
                         onPressed: () {
                           //TODO: implement database req to complete
                         },
@@ -91,7 +92,7 @@ class _TaskPageState extends State<TaskPage> {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Text(
-                        "Delete Task",
+                        Translations.of(context).text("Delete Task"),
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -103,7 +104,7 @@ class _TaskPageState extends State<TaskPage> {
                       Text('date'),
                       SizedBox(height: 24),
                       CustomButton(
-                        buttonText: "Delete",
+                        buttonText: Translations.of(context).text("Delete"),
                         onPressed: () {
                           //TODO: implement database request to delete
                         },

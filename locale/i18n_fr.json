@@ -9,5 +9,9 @@
   "Enter event name": "Entrez le nom de l'événement",
   "Enter description": "Entrez la description",
   "Pick date": "Choisissez la date",
-  "Pick time": "choisir l'heure"
+  "Pick time": "choisir l'heure",
+  "Confirm Task": "Confirmer la tâche",
+  "Complete": "Achevée",
+  "Delete Task": "Supprimer la tâche",
+  "Delete": "Supprimer"
 }

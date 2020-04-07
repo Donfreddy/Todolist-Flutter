@@ -9,5 +9,9 @@
   "Enter event name": "Enter event name",
   "Enter description": "Enter description",
   "Pick date": "Pick date",
-  "Pick time": "Pick time"
+  "Pick time": "Pick time",
+  "Confirm Task": "Confirm Task",
+  "Complete": "Complete",
+  "Delete Task": "Delete Task",
+  "Delete": "Delete"
 }

@@ -1,0 +1,13 @@
+{
+  "Tasks": "Tâches",
+  "Events": "Événements",
+  "Close": "Fermer",
+  "Save": "Enregistrer",
+  "Add new task": "Ajouter une nouvelle tâche",
+  "Add new event": "Ajouter un nouvel événement",
+  "Enter task name": "Entrez le nom de la tâche",
+  "Enter event name": "Entrez le nom de l'événement",
+  "Enter description": "Entrez la description",
+  "Pick date": "Choisissez la date",
+  "Pick time": "choisir l'heure"
+}
